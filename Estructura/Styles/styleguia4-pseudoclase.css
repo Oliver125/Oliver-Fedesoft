@@ -1,0 +1,30 @@
+/* These styles will style our link
+   in all states */
+a {
+  color: blue;
+  font-weight: bold;
+}
+
+/* We want visited links to be the same color
+   as non visited links */
+a:visited {
+  color: blue;
+}
+
+/* We highlight the link when it is
+   hovered (mouse), activated
+   or focused (keyboard) */
+a:hover, /* pasar puntero por encima */
+a:active, 
+a:focus { /* Cuando lo enfoque */
+  color: darkred;
+  text-decoration: none;
+}
+/* All elements with an attribute "href", which values
+   start with "http", will be added an arrow after its
+   content (to indicate it's an external link) */
+   [href^=http]::after {
+    content: '⤴';
+  }
+  
+  

@@ -1,0 +1,14 @@
+h1 {
+    /* h1 va hasta h6 (etiqueta) */
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  p {
+    color: red;
+  }
+  /* Aplica a parrafos y a li */
+  p, li {
+    text-decoration: underline;
+  }

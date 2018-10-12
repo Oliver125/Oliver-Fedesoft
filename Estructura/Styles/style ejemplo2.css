@@ -1,0 +1,10 @@
+/* El elemento con la clase "first" está en negrita */
+.first {
+    font-weight: bold;
+  }
+  
+  /* Todos los elementos con la clase "done" están tachados */
+  .done {
+    text-decoration: line-through;
+  }
+  

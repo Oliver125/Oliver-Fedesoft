@@ -1,0 +1,5 @@
+* { /* *Aplica cambios a todos los elementos de la pagina */
+    padding: 5px; /* almohadilla espaciado */
+    border: 1px solid black; /* recuadro */
+    background: rgba(255, 187, 0, 0.25) /* FONDO */
+}

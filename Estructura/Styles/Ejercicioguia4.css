@@ -1,0 +1,51 @@
+.izquierda { 
+float:right;
+display: block;
+position: relative;	
+background-color:powderblue
+}
+.derecha { 
+  float:left;
+  display: block;
+  position: relative;	
+  background-color: black		
+  }
+strong {
+  font-size: 50px
+}
+body{
+  background-color: rgb(213, 223, 222)
+}
+p {
+  float:  left
+}
+div p {
+  float:  left
+  display: block
+  position: absolute;
+  bottom: 500px;
+  right: 100;
+  left: 100;
+  padding: 5px;
+  width: 100%;
+  font-size: 25px
+}
+.izquierda2 { 
+  float:right;
+  display: block;
+  position: relative;	
+  background-color: rgb(213, 223, 222)
+}
+.negro1 {
+  background-color: black
+}
+.blanco {
+  color: white
+}
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.centro {
+  margin:10px auto;
+	display:block; /*centra objeto*/
+}

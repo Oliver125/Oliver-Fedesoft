@@ -1,0 +1,15 @@
+section{
+  background: green
+}
+section{
+  height: 500px;
+  width:  400px;
+}
+div {
+  background: red
+}
+#caja{
+  height: 100px;
+  width:  130px;
+  position: relative
+}

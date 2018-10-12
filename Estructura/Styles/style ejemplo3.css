@@ -1,0 +1,9 @@
+#polite {
+    font-family: cursive; /* Cursiva */
+  }
+  
+  #rude {
+    font-family: monospace;
+    text-transform: uppercase;/* pasa texto a mayusculas */
+  }
+  
