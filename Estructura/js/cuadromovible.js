@@ -1,14 +1,23 @@
 
+/*$(document).ready(inicio);
+function inicio() {
+    move(cero);
+}*/
 var object = document.getElementById("caja");
-var inicio = 0;
-for (var a = 0; a < 10000000; a++) {
-    var c = 200
-}
-//object.style="left: 100px"
-object.style.left = inicio + "px"
-for (var i = 0; i < 200; i++) {
-    object.style.left = inicio + "px"
-    inicio = inicio + 1;
+var cero = 0;
+//object.style.left = cero + "px";
+
+for (a = 0; a < 5; a++) {
+    function move(cero) {
+        for (var i = 0; i < 5; i++) {
+            object.style.left = cero + "px"
+        }
+    }
     
+    cero = cero + 50;
+    //alert(a)
 }
+setTimeout("move(cero)", 1000);
+
+
 //alert(inicio)
