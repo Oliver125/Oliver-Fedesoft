@@ -1,23 +1,13 @@
-
-/*$(document).ready(inicio);
-function inicio() {
-    move(cero);
-}*/
 var object = document.getElementById("caja");
 var cero = 0;
-//object.style.left = cero + "px";
+var t = setInterval(move, 10);//llama a la función move cada 120 milisegundos
 
-for (a = 0; a < 5; a++) {
-    function move(cero) {
-        for (var i = 0; i < 5; i++) {
-            object.style.left = cero + "px"
-        }
+function move() {
+    if (cero >= 300) {
+        clearInterval(t);// detiene el cronomentro
     }
-    
-    cero = cero + 50;
-    //alert(a)
+    else {
+        cero = cero + 5;
+        object.style.left = cero + "px"
+    }
 }
-setTimeout("move(cero)", 1000);
-
-
-//alert(inicio)
